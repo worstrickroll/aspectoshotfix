@@ -3,17 +3,28 @@ html {
 }
 
 body {
-    --main-color: #7209b7;
-    --light: #E0E0E0;
+    --main-color: #E4A5FF;
+    --light: #C5C4FF;
+    --light-no-override: #C5C4FF;
+    --section: #ACDCFF;
     font-family: 'League Spartan', sans-serif;
     font-size: 1rem;
     background-color: var(--light);
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        --main-color: #3b2047;
+        --light: #3b3055;
+        --section: #354663;
+    }
+    .navbar-brand,.nav-link,body {
+        color: var(--light-no-override) !important;
+    }
 }
 
 .bg-main {
     background-color: var(--main-color);
 }
-
 .fade-main {
     background-color: var(--light);
     transition: background-color 500ms;
@@ -24,7 +35,6 @@ body {
 .fade-main:hover .navbar-brand {
     background-color: var(--main-color);
 }
-
 .nav-link {
     background-color: inherit;
     border-radius: 10px;
@@ -46,9 +56,12 @@ body {
 .navbar-brand:hover {
     background-color: var(--light) !important;
 }
+.navbar-responsive-theme {
+    color: black;
+}
 
 section {
-    background-color: white;
+    background-color: var(--section);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 15px;
