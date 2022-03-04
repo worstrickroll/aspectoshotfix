@@ -1,2 +1,3 @@
 # aspect-os
-The GitHub Pages Version of the AspectOS website, made by our wonderful team!
+
+Welcome! This is where you can find the code for the GitHub Pages Version of AspectOS! This is different from the Glitch and Replit version since we are starting fresh instead of just modifying code!
