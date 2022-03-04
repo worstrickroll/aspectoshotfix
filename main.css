@@ -75,3 +75,7 @@ img {
 main-image {
     margin-bottom: 75px;
 }
+/*needed to change thing to restart deployment*/
+p {
+    font-size: 1rem;
+}
