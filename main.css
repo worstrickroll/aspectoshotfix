@@ -70,10 +70,10 @@ section {
 
 img {
     border-radius: 10px;
-    box-shadow: 0px 15px 22px 0px var(--main-color);
 }
 main-image {
     margin-bottom: 75px;
+    box-shadow: 0px 15px 22px 0px var(--main-color);
 }
 /*needed to change thing to restart deployment*/
 p {
