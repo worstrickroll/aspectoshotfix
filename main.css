@@ -69,3 +69,6 @@ section {
 }
 
 /*needed to change thing to restart deployment*/
+p {
+    font-size: 1rem;
+}
