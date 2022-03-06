@@ -3,19 +3,19 @@ html {
 }
 
 body {
-    --main-color: #E4A5FF;
-    --light: #C5C4FF;
-    --light-no-override: #C5C4FF;
-    --section: #ACDCFF;
+    --main-color: #2b63ca;
+    --light: #ffffff;
+    --light-no-override: #ffffff;
+    --section: #e1e7e9;
     font-family: 'League Spartan', sans-serif;
     font-size: 1rem;
     background-color: var(--light);
 }
 @media (prefers-color-scheme: dark) {
     body {
-        --main-color: #3b2047;
-        --light: #3b3055;
-        --section: #354663;
+        --main-color: #001845;
+        --light: #000000;
+        --section: #283336;
     }
     .navbar-brand,.nav-link,body {
         color: var(--light-no-override) !important;
