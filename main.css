@@ -82,3 +82,31 @@ img {
 p {
     font-size: 1rem;
 }
+
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.container::before {
+  content: '\00a0';
+}
+
+.scrolling {
+  animation: marquee 10s linear infinite;
+  display: block;
+  min-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to { 
+    transform: translateX(-100%);
+  }
+}
