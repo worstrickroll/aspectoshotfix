@@ -2,6 +2,7 @@ html {
     font-size: 19px;
 }
 
+/*
 body {
 	background: linear-gradient(99deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -20,6 +21,8 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+*/
     .navbar-brand,.nav-link,body {
         color: var(--light-no-override) !important;
     }
