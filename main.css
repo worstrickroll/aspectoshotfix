@@ -2,7 +2,6 @@
 
 html {
     font-size: 19px;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .nav-link {
@@ -79,12 +78,4 @@ p {
   }
 }
 
-.ukraine-support-banner {
-    text-align: center;
-    background-color: #ff4f4f;
-    border: 5px solid #dc143c;
-    border-radius: 10px;
-    padding: 15px;
-    font-weight: bolder; 
-    text-decoration: none;
-}
+body { font-family: 'Source Sans Pro', sans-serif; }
