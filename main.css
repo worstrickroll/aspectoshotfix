@@ -75,3 +75,12 @@ p {
     transform: translateX(-100%);
   }
 }
+
+.ukraine-support-banner {
+    text-align: center;
+    opacity: 0.6;
+    background-color: #ff2626;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 20px;
+}
