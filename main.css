@@ -80,7 +80,19 @@ p {
     text-align: center;
     opacity: 0.6;
     background-color: #ff2626;
-    border: 2px solid crimson;
+    border: 2px solid #dc143c;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
 }
+
+.dark-text-ua-banner {
+    color: #000000;
+    opacity: 1;
+    font-weight: bolder;
+
+}
+
+a.ukraine-support-banner {
+    text-decoration: none;
+    color: #000080;
+    
