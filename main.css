@@ -79,9 +79,9 @@ p {
 .ukraine-support-banner {
     text-align: center;
     opacity: 1;
-    background-color: #ff2626;
-    border: 2px solid #dc143c;
-    border-radius: 5px;
+    background-color: #ff4f4f;
+    border: 5px solid #dc143c;
+    border-radius: 10px;
     padding: 15px;
     font-weight: bolder; 
     text-decoration: none;
