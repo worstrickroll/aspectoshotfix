@@ -33,4 +33,6 @@ p {
   content: '\00a0';
 }
 
-body { font-family: 'Source Sans Pro', sans-serif; }
+html { 
+    font-family: 'Source Sans Pro', sans-serif; 
+    }
