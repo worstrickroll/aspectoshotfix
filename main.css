@@ -2,6 +2,7 @@
 
 html {
     font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif; 
 }
 
 .nav-link {
@@ -33,6 +34,7 @@ p {
   content: '\00a0';
 }
 
-html { 
-    font-family: 'Source Sans Pro', sans-serif; 
+body {
+margin: 5px;
+padding: 5px;
     }
