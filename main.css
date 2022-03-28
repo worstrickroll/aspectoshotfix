@@ -12,39 +12,6 @@ html {
     margin-left: 20px;
     margin-right: 20px;
 }
-light .nav-link:hover {
-    background-color: var(--light) !important;
-}
-dark .nav-link:hover {
-    background-color: var(--dark) !important;
-}
-light .navbar-brand {
-    background-color: inherit;
-    border-radius: 10px;
-    transition: background-color 500ms;
-    padding: 7px 14px;
-    font-size: 1.4rem;
-}
-light .navbar-brand:hover {
-    background-color: var(--light) !important;
-}
-dark .navbar-brand:hover {
-    background-color: var(--dark) !important;}
-light .navbar-responsive-theme {
-    color: black;
-}
-dark .navbar-responsive-theme {
-    color: white;
-}
-
-light section {
-    background-color: var(--section);
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    margin: 5px;
-    border-radius: 10px;
-}
 
 img {
     border-radius: 10px;
