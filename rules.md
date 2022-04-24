@@ -5,6 +5,7 @@ Here are the rules for those who have Write Access to the AspectOS/aspectos.gith
 ## Committing Changes
 
 As a "Website Developer" you cannot Commit changes or Merge a PR directly unless
+
 - The change fixes a bug and the fix is tested either through a Self Hosted Github Page or locally or/and
 - The change has 4 Votes from Members of the "Website Developers" Github Team
 
