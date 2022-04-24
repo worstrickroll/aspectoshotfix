@@ -5,7 +5,7 @@ Welcome! This is the code behind the official AspectOS website! We have 9 contri
 
 ## Image Gallery
 
-![image](https://raw.githubusercontent.com/AspectOS/aspectos.github.io/main/images/Screenshot%202022-04-21%208.06.44%20PM.png)
+![image](https://raw.githubusercontent.com/AspectOS/aspectos.github.io/main/images/Screenshot%202022-04-21%208.06.44%20PM.png)<br>
 ![image](https://raw.githubusercontent.com/AspectOS/aspectos.github.io/main/images/Screenshot%202022-04-21%208.08.02%20PM.png)
 
 ## Issues
