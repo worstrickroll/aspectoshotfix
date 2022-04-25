@@ -2,7 +2,37 @@
 
 html {
     font-size: 19px;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
+
+    --primary: #85c6e6;
+    --main-bg: #EEEEEE;
+    --text-color: #11111f;
+}
+
+.card-dark {
+    background-color: var(--primary);
+    border-color: var(--primary) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --primary: #003a6f;
+        --main-bg: #222233;
+        --text-color: #EEEEFF;
+    }
+
+    .card-dark {
+        background-color: var(--primary);
+        border-color: var(--primary) !important;
+    }
+}
+
+a {
+    color: var(--primary);
+}
+
+.card a {
+    color: var(--main-bg);
 }
 
 .nav-link {
@@ -12,6 +42,8 @@ html {
     padding: 15px 20px;
     margin-left: 20px;
     margin-right: 20px;
+
+    color: var(--text-color);
 }
 
 img {
@@ -19,12 +51,24 @@ img {
 }
 .main-image {
     margin-bottom: 75px;
-    box-shadow: 0px 15px 22px 0px var(--main-color);
+    box-shadow: 0px 15px 22px 0px var(--primary);
 }
 
 .container {
   overflow: hidden;
   position: relative;
+
+  background-color: var(--main-bg);
+}
+
+.container-md {
+    background-color: var(--main-bg);
+}
+
+body {
+    background-color: var(--main-bg);
+
+    color: var(--text-color)
 }
 
 .container::before {
@@ -45,8 +89,30 @@ body {
     background-image: url("images/PrettyBackgroundImage.jpg");
     background-size: cover;
     background-position: center;
+    background-color: var(--main-bg);
+}
+
+.footer-bg a {
+    color: var(--text-color);
 }
 
 .small-border-radius {
     border-radius: 7px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .footer-bg {
+        background-image: url("images/PrettyBackgroundImageDark.jpg");
+        background-color: var(--main-bg);
+
+        color: var(--text-color);
+    }
+
+    a {
+        color: var(--text-color);
+    }
+}
+
+.nav-link, .navbar-brand {
+    color: var(--text-color) !important;
 }
