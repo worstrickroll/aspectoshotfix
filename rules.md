@@ -4,10 +4,10 @@ Here are the rules for those who have Write Access to the AspectOS/aspectos.gith
 
 ## Committing Changes
 
-As a "Website Developer" you cannot Commit changes or Merge a PR directly unless
+As a "Website Developer" you cannot Commit changes
 
 - The change fixes a bug and the fix is tested either through a Self Hosted Github Page or locally or/and
-- The change has 4 Votes from Members of the "Website Developers" Github Team
+- The change has 4 Votes from Members of the "Website Developers" Github Team (See "Merging Pull Requests")
 
 ## Merging Pull Requests
 
@@ -15,6 +15,6 @@ Pull Requests must be merged through the "Squash and Merge" method (found in the
 
 ## Intelligent Naming
 
-Commits and Pull Requests must use the following Naming System. A name must start with the scope of the change in question. Options for it include (but not limited to) meta, bugfix, appearance, docs, tools, pages and features. It must also be inside square brackets ([ and ] ). After the "scope" text the Title should contain a Brief Summary of the Changes with less than 55 words. An example of a title using this Naming System is "[meta] Changed title of About page (Resolves #43)".
+Commits and Pull Requests must use the following Naming System. A name must start with the scope of the change in question. Options for it include (but not limited to) meta, bugfix, appearance, docs, tools, pages and features. It must also be inside square brackets ([ and ] ). After the "scope" text the Title should contain a Brief Summary of the Changes with less than 55 words. An example of a title using this Naming System is "[meta] Changed title of About page (#43)". In this case #44 refers to an Issue that the error was reported.
 
-**© AspectOS Website Development Management** Written by @mbrick2 on Scratch and all inquires should be referred to him on his [Scratch Profile](https://scratch.mit.edu/users/mbrick2/)
+**© AspectOS Website Development Management**
