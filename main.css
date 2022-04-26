@@ -86,6 +86,9 @@ body {
 
 .footer-bg {
     background-color: var(--main-bg);
+    background-image: url("images/PrettyBackgroundImage.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .footer-bg a {
@@ -99,7 +102,7 @@ body {
 @media (prefers-color-scheme: dark) {
     .footer-bg {
         background-color: var(--main-bg);
-
+        background-image: url("images/PrettyBackgroundImageDark.jpg");
         color: var(--text-color);
     }
 
