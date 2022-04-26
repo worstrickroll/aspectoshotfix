@@ -28,13 +28,13 @@ html {
 }
 
 /* Dark mode toggeling */
-:root.dark {
+.dark-mode {
     --primary: #003a6f;
     --main-bg: #222233;
     --text-color: #EEEEFF;
   }
 
-.card-dark.card-dark {
+.dark-mode.card-dark. {
     background-color: var(--primary);
     border-color: var(--primary) !important;
 }
@@ -42,13 +42,13 @@ html {
 /* End of Dark Mode Toggeling*/
 
 /* Light mode toggeling */
-:root.dark {
+.light-mode {
     --primary: #85c6e6 !important;
     --main-bg: #EEEEEE !important;
     --text-color: #11111f !important;
   }
 
-.card-dark {
+.light-mode .card-dark {
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
 }
