@@ -27,6 +27,34 @@ html {
     }
 }
 
+/* Dark mode toggeling */
+:root.dark {
+    --primary: #003a6f;
+    --main-bg: #222233;
+    --text-color: #EEEEFF;
+  }
+
+.card-dark.card-dark {
+    background-color: var(--primary);
+    border-color: var(--primary) !important;
+}
+
+/* End of Dark Mode Toggeling*/
+
+/* Light mode toggeling */
+:root.dark {
+    --primary: #85c6e6 !important;
+    --main-bg: #EEEEEE !important;
+    --text-color: #11111f !important;
+  }
+
+.card-dark {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+/* End of Light Mode Toggeling*/
+
 a {
     color: var(--primary);
 }
