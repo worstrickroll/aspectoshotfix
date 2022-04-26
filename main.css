@@ -85,6 +85,9 @@ body {
 }
 
 .footer-bg {
+    background-image: url("images/PrettyBackgroundImage.jpg");
+    background-size: cover;
+    background-position: center;
     background-color: var(--main-bg);
 }
 
