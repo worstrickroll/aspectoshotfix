@@ -127,7 +127,7 @@ body {
 @media (prefers-color-scheme: dark) {
     .footer-bg {
         background-color: var(--main-bg);
-
+        background-image: url("images/PrettyBackgroundImageDark.jpg");
         color: var(--text-color);
     }
 
