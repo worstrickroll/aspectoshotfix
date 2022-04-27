@@ -34,7 +34,7 @@ html {
     --text-color: #EEEEFF;
   }
 
-.dark-mode.card-dark. {
+.dark-mode.card-dark {
     background-color: var(--primary);
     border-color: var(--primary) !important;
 }
@@ -126,9 +126,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .footer-bg {
-        background-color: var(--main-bg);
-        background-image: url("images/PrettyBackgroundImageDark.jpg");
-        color: var(--text-color);
+        color: var(--main-bg);
     }
 
     a {
