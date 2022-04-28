@@ -25,6 +25,8 @@ html {
         background-color: var(--primary);
         border-color: var(--primary) !important;
     }
+
+    .row { color: white; }
 }
 
 /* Dark mode toggeling */
@@ -37,6 +39,9 @@ html {
 .dark-mode.card-dark {
     background-color: var(--primary);
     border-color: var(--primary) !important;
+}
+.dark-mode.row {
+    color: white;
 }
 
 /* End of Dark Mode Toggeling*/
