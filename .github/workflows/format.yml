@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Clean Up Code
 
 on:
   pull_request:
